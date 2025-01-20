@@ -80,6 +80,9 @@ Develop a **mini and simple chatbot system** that:
    - Are setup and usage instructions clear?
 
 5. **🌟 Bonus:**
+   - Use Typescript
+   - Use Zod Validations
+   - Use some ORM
    - Real-time updates with WebSockets.
    - Redis for caching.
    - Testing with Jest or similar tools.
