@@ -1,4 +1,4 @@
-# 🌟 Fullstack Developer Challenge
+# 🌟 Fullstack Developer Challenge - DS Integrations
 
 ## **📖 Context**
 At **DS Integrations S.A.S**, we are focused on providing solutions that improve IT Service Management (ITSM) processes. As part of our continuous improvement, we have identified the need to integrate a chatbot into our platform to streamline customer interactions. This chatbot should handle user queries and simulate basic AI responses.
