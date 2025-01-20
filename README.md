@@ -1,99 +1,97 @@
-# 🚀 Fullstack Developer Challenge - DS Integrations
+# 🌟 Fullstack Developer Challenge
 
-## **🌟 Objective**
-Develop a **mini and very simple Chatbot system** that allows:
-1. 💬 Sending messages between a user and the bot.
-2. 🤖 Automatically responding to messages with basic AI simulation.
-3. 🗂️ Storing messages in a database.
+## **📖 Context**
+At **DS Integrations S.A.S**, we are focused on providing solutions that improve IT Service Management (ITSM) processes. As part of our continuous improvement, we have identified the need to integrate a chatbot into our platform to streamline customer interactions. This chatbot should handle user queries and simulate basic AI responses.
 
-This challenge evaluates your Fullstack development skills using the technologies and stack listed below.
+Your mission, should you choose to accept it, is to develop a **proof of concept** for this chatbot system. The solution must address the outlined business needs while demonstrating your fullstack development skills.
 
 ---
 
-## **🛠️ Technologies to Use**
-
-- **Programming Languages:** JavaScript / TypeScript
-- **Back-end:** Node.js, Express
-- **Front-end:** Next.js, React, TailwindCSS
-- **Database:** PostgreSQL
+## **🚀 The Problem**
+Currently, our support team handles a high volume of repetitive queries. We want to:
+1. 🤖 Implement a simple and small proof of concept chatbot that can respond automatically to common questions.
+2. 💬 Store all user and bot interactions for future analysis.
+3. 📊 Provide a clean and intuitive interface for user interaction.
 
 ---
 
-## **📋 Requirements**
+## **🌟 Your Task**
+Develop a **mini and simple chatbot system** that:
+1. 🧠 Automatically responds to user messages using predefined rules or logic.
+2. 💾 Stores all messages in a database.
+3. 🎨 Includes a simple, responsive front-end interface for user interaction.
 
-### **🔧 Back-end (API with Node.js and Express)**
+---
 
-#### **Endpoints**
+## **🛠️ Technical Requirements**
+
+### **🔧 Back-end (Node.js and Express)**
+#### Features:
 1. **POST /messages:**  
-   - 💾 Receives a message from an user and saving it in the database.
-   - 🤖 If the message is sent to the bot, it generates an automatic response based on predefined keywords.  
-     Example keywords:
+   - Receives a message from a user and saves it in the database.
+   - If the recipient is the bot, generate an automatic response using predefined keywords.
+     Examples:
      - "Hola" → "Hola, ¿en qué puedo ayudarte?"
      - "Problema con ticket" → "¿Puedes darme más detalles sobre tu problema?"
      - "Gracias" → "¡De nada!"
 
 2. **GET /messages:**  
-   - 📜 Returns all messages, including those sent by the bot and the user. (it could be the conversation history)
+   - Returns all stored messages.
 
-#### **Database**
-- **Structure:**
-  Define your best version for this Database
+#### Database:
+- Define the database structure to best handle:
+  - Sender (user or bot).
+  - Message content.
+  - Timestamps.
 
-#### **AI Simulation**
-- 🧠 Implement a simple logic (switch/if/else) to respond automatically based on predefined keywords.
-- **Optional:** Use an AI API (e.g., OpenAI) for a more advanced response.
+#### AI Simulation:
+- Implement a basic logic system (e.g., `if/else` or `switch`).
+- **Bonus:** Integrate an AI API for smarter responses (e.g., OpenAI).
 
----
-
-### **🎨 Front-end (Next.js / React and TailwindCSS)**
-
-#### **Features**
-1. **Main Page:**
-   - 💻 An interactive chat where users can:
-     - ✍️ Send messages.
-     - 👀 See real-time bot responses.
+### **🎨 Front-end (Next.js / React with TailwindCSS)**
+#### Features:
+1. **Chat Interface:**
+   - Input field for users to send messages.
+   - Display conversation history with distinct styles for user and bot messages.
 
 2. **Design:**
-   - 🎨 Use **TailwindCSS** for a clean, modern UI.
-   - Create the following React components:
-     - **Input Area:** A text input for sending messages.
-     - **Chat History:** Styled message bubbles for user and bot messages.
+   - Use **TailwindCSS** for a clean, modern interface.
 
-#### **Technical Requirements**
-- 🌐 Fetch API or Axios for API communication.
-- 🗂️ Use Context API or a state management library for global state (optional).
+3. **State Management:**
+   - Use React’s Context API or other state management solutions to manage chat data.
 
 ---
 
 ## **📊 Evaluation Criteria**
 
-1. **✅ Technical Accuracy:**
-   - Does the solution meet the functional requirements?
-   - Are the API endpoints functional and follow best practices?
-   - Is the front-end UI intuitive and well-designed?
+1. **💡 Problem-Solving:**
+   - How effectively does the solution address the problem?
 
-2. **📚 Code Quality:**
-   - Is the code well-structured and maintainable?
-   - Are good practices followed (naming conventions, modularity, etc.)?
+2. **🛠️ Technical Implementation:**
+   - Are the API endpoints functional and well-structured?
+   - Is the front-end intuitive and responsive?
 
-3. **📝 Documentation:**
-   - Does the README provide clear setup and execution instructions?
+3. **📚 Code Quality:**
+   - Is the code readable, modular, and maintainable?
 
-4. **🌟 Optional Features (Bonus Points):**
-   - Implement WebSocket for real-time chat.
-   - Use Redis for caching.
-   - Add basic testing with Jest or equivalent tools.
+4. **📝 Documentation:**
+   - Are setup and usage instructions clear?
+
+5. **🌟 Bonus:**
+   - Real-time updates with WebSockets.
+   - Redis for caching.
+   - Testing with Jest or similar tools.
 
 ---
 
-## **📬 Submission Instructions**
+## **⚙️ Submission Instructions**
 
-1. 🔄 Fork this repository to your own GitHub account.
-2. 🛠️ Complete the challenge and push your code to the forked repository.
-3. 📖 Include a **README** with:
-   - Steps to install dependencies, start the server, and access the app.
-   - Technical decisions and any challenges you faced.
+1. Fork this repository to your GitHub account.
+2. Complete the challenge and push your solution to the forked repository.
+3. Include a README detailing:
+   - Setup steps.
+   - Technical decisions made.
+   - Challenges encountered and how you resolved them.
+4. Share the repository link.
 
-4. 🔗 Share the link to your forked repository.
-
-Good luck, and enjoy it 🚀
+Good luck, and we can’t wait to see your solution! 🌟
