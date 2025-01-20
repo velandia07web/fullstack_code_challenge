@@ -1,3 +1,5 @@
+![DS Integrations Logo](./logo_horizontal_ds_integration.png)
+
 # 🌟 Fullstack Developer Challenge - DS Integrations
 
 ## **📖 Context**
