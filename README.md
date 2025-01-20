@@ -96,33 +96,4 @@ This challenge evaluates your Fullstack development skills using the technologie
 
 4. 🔗 Share the link to your forked repository.
 
----
-
-## **⚙️ Setup Instructions**
-
-### **🔧 Back-end:**
-1. Clone the repository and navigate to the `backend` folder.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up the database (PostgreSQL or Redis) and update the `.env` file with your connection details.
-4. Start the server:
-   ```bash
-   npm run dev
-   ```
-
-### **🎨 Front-end:**
-1. Navigate to the `frontend` folder.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
----
-
-Good luck, and we look forward to reviewing your submission! 🚀
+Good luck, and enjoy it 🚀
