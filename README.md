@@ -25,7 +25,7 @@ This challenge evaluates your Fullstack development skills using the technologie
 
 #### **Endpoints**
 1. **POST /messages:**  
-   - 💾 Receives a message from a user and saves it in the database.
+   - 💾 Receives a message from an user and saving it in the database.
    - 🤖 If the message is sent to the bot, it generates an automatic response based on predefined keywords.  
      Example keywords:
      - "Hola" → "Hola, ¿en qué puedo ayudarte?"
@@ -33,7 +33,7 @@ This challenge evaluates your Fullstack development skills using the technologie
      - "Gracias" → "¡De nada!"
 
 2. **GET /messages:**  
-   - 📜 Returns all messages, including those sent by the bot and the user.
+   - 📜 Returns all messages, including those sent by the bot and the user. (it could be the conversation history)
 
 #### **Database**
 - **Structure:**
