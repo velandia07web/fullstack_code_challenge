@@ -24,8 +24,8 @@ app.use(express.json());
 app.use('/mensajes', messageRoutes);
 app.use('/auth', authRoutes);
 
-// WebSocket (💡 ¡Importante! después de configurar las rutas)
-initSocket(server); // 💥 Esto debe ir después del app.use
+
+initSocket(server); 
 
 // Arrancar el servidor
 sequelize.sync()

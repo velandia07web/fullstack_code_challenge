@@ -38,7 +38,7 @@ export const ChatProvider = ({ children }: { children: React.ReactNode }) => {
       return;
     }
 
-    // ✅ Solo cargamos historial y conectamos WebSocket si hay token
+  
     loadHistory();
 
     socket = io("http://localhost:4000", {

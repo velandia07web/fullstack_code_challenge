@@ -79,7 +79,7 @@ const createMessage = async (req, res) => {
   }
 };
 
-// GET /mensajes
+
 // GET /mensajes
 const getMessages = async (req, res) => {
   try {

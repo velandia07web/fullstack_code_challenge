@@ -11,9 +11,9 @@ const Message = sequelize.define('Message', {
     type: DataTypes.TEXT,
     allowNull: false
   },
-  userId: {  // Clave foránea al usuario que envía el mensaje
+  userId: {  
     type: DataTypes.INTEGER,
-    allowNull: false,  // Si quieres que siempre tenga usuario
+    allowNull: false,  
     references: {
       model: User,
       key: 'id'

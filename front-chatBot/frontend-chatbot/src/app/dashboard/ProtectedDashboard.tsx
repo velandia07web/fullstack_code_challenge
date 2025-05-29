@@ -1,4 +1,4 @@
-// src/app/dashboard/ProtectedDashboard.tsx
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -21,7 +21,7 @@ export default function ProtectedDashboard() {
   }, [router]);
 
   if (!authorized) {
-    return null; // o un loading spinner si prefieres
+    return null; 
   }
 
   return (

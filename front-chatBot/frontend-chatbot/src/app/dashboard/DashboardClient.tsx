@@ -1,4 +1,4 @@
-// src/app/dashboard/DashboardClient.tsx
+
 "use client";
 
 import ChatBox from "@/components/ChatBox";
