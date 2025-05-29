@@ -214,5 +214,12 @@ npm install zod
 
 
 
+Desafios presentados
+
+Se hace invenstigacion de como usar zod ya que no se habia implementado antes en ningun proyecto 
+al igual que de parte de front TailwindCSS... pero se logra hacer la respectiva integracion con el prooyecto dejando completamente funcional.... 
+
+
+
 
 
