@@ -1,15 +1,15 @@
-![DS Integrations Logo](./logo_horizontal_ds_integration.png)
 
-# 🌟 Fullstack Developer Challenge - DS Integrations
 
-## **📖 Context**
+
+
+ **📖 Context**
 At **DS Integrations S.A.S**, we are focused on providing solutions that improve IT Service Management (ITSM) processes. As part of our continuous improvement, we have identified the need to integrate a chatbot into our platform to streamline customer interactions. This chatbot should handle user queries and simulate basic AI responses.
 
 Your mission, should you choose to accept it, is to develop a **proof of concept** for this chatbot system. The solution must address the outlined business needs while demonstrating your fullstack development skills.
 
 ---
 
-## **🚀 The Problem**
+ **🚀 The Problem**
 Currently, our support team handles a high volume of repetitive queries. We want to:
 1. 🤖 Implement a simple and small proof of concept chatbot that can respond automatically to common questions.
 2. 💬 Store all user and bot interactions for future analysis.
@@ -17,18 +17,17 @@ Currently, our support team handles a high volume of repetitive queries. We want
 
 ---
 
-## **🌟 Your Task**
+ **🌟 Your Task**
 Develop a **mini and simple chatbot system** that:
 1. 🧠 Automatically responds to user messages using predefined rules or logic.
 2. 💾 Stores all messages in a database.
 3. 🎨 Includes a simple, responsive front-end interface for user interaction.
 
 ---
+ **🛠️ Technical Requirements**
 
-## **🛠️ Technical Requirements**
-
-### **🔧 Back-end (Node.js and Express)**
-#### Features:
+ **🔧 Back-end (Node.js and Express)**
+ Features:
 1. **POST /messages:**  
    - Receives a message from a user and saves it in the database.
    - If the recipient is the bot, generate an automatic response using predefined keywords.
@@ -40,7 +39,7 @@ Develop a **mini and simple chatbot system** that:
 2. **GET /messages:**  
    - Returns all stored messages.
 
-#### Database:
+ Database:
 - Define the database structure to best handle:
   - Sender (user or bot).
   - Message content.
@@ -100,3 +99,4 @@ Develop a **mini and simple chatbot system** that:
 4. Share the repository link.
 
 Good luck, and we can’t wait to see your solution! 🌟
+
